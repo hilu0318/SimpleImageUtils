@@ -256,7 +256,7 @@ public class ProcessService {
 						break;
 					}
 				}
-				
+				mainView.changPanel("default");
 				Thread.currentThread().interrupt();
 				count--;
 				Log.i("Receive Server - Receiver : Client has been disconnected");
